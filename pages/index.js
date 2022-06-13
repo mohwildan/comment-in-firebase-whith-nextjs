@@ -70,7 +70,7 @@ export default function Home() {
         <Button bg="yellow.500" color="white" _hover={{bg: "yellow.400"}} ml={3} onClick={() => signOut(auth)}>Log Out</Button>
       </Flex>
 
-      <Center h="calc(100vh - 140px)" display="flex" flexDir="column">
+      <Center h="100%"  display="flex" flexDir="column">
         <form onSubmit={handlerSumbit}>
           <Input placeholder="comment" onChange={handlerChange} value={komen} />
 
